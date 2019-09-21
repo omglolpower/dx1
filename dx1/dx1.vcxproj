@@ -151,13 +151,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Engine.cpp" />
     <ClCompile Include="src\ErrorLogger.cpp" />
+    <ClCompile Include="src\RenderWindow.cpp" />
     <ClCompile Include="src\Source.cpp" />
     <ClCompile Include="src\StringConvter.cpp" />
+    <ClCompile Include="src\WindowContainer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Engine.h" />
     <ClInclude Include="src\ErrorLogger.h" />
+    <ClInclude Include="src\RenderWindow.h" />
     <ClInclude Include="src\StringConvter.h" />
+    <ClInclude Include="src\WindowContainer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\cases.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

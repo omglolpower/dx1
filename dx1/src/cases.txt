@@ -1,0 +1,11 @@
+case WM_CHAR:
+	{
+		unsigned char letter = static_cast<unsigned char>(wParam);
+		return 0;
+	}
+
+	case WM_KEYDOWN:
+	{
+		unsigned char keycode = static_cast<unsigned char>(wParam);
+		return 0;
+	}
